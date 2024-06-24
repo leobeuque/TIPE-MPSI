@@ -7,4 +7,9 @@ L'objectif est de minimiser la durée de l'ensemble de toutes les opérations.
 
 A gauche, le planning optimal obtenu avec notre algorithme. A droite, un planning obtenu avec l'algorithme fourni en exemple dans le cours.
 
+![alt text](https://github.com/leobeuque/TIPE-MPSI/blob/main/evacuation%201%201.png?raw=true)
+![alt text](https://github.com/leobeuque/TIPE-MPSI/blob/main/evacuation%201%205.png?raw=true)
+![alt text](https://github.com/leobeuque/TIPE-MPSI/blob/main/evacuation%201%207.png?raw=true)
 
+
+![alt text](https://github.com/leobeuque/TIPE-MPSI/blob/main/comparaison%20courbes%20obstacles%2C%20CA%20MARCHE.png?raw=true)
