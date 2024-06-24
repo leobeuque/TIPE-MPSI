@@ -1,15 +1,15 @@
-### Court projet réalisé en deuxième année d'école: Ordonnancement d'opérations de patients dans un hôpital.
+### Travail d'Initiative Personnelle Encadré (TIPE) portant sur la modélisation de l'évacuation d'une foule dans une salle.
 
-Pour chaque patient, nous disposons d'une liste d'opérations à effectuer. Chaque opération nécessite un ensemble de compétences ("skill" sur l'image) bien défini représenté sous la forme d'un n-uplet : le n-uplet (1,1,2) correspond à une opération faisant appel à la compétence 1 pendant 2 cycles et la compétence 2 pendant 1 cycle.
-L'objectif est de minimiser la durée de l'ensemble de toutes les opérations.
+Ce Projet, réalisé en principalement en MPSI, fut mon premier projet de taille significative. Deux approches ont été étudiées pour modéliser la foule. Le premier modèle simple au fonctionnement proche de celui d'un automate cellulaire pouvait être visualisé sous la forme suivante:
 
 ![alt text](https://github.com/leobeuque/TIPE-MPSI/blob/main/proba%20de%20tomber%20de%200.1%203.png?raw=true)
 
-A gauche, le planning optimal obtenu avec notre algorithme. A droite, un planning obtenu avec l'algorithme fourni en exemple dans le cours.
+Les résultats étant trop loin de ceux observés dans la réalité, un second modèle, incluant des calculs physiques simples approximant la déformation des individus, a été développé. Un exemple d'évacuation est visible ci-dessous.
 
 ![alt text](https://github.com/leobeuque/TIPE-MPSI/blob/main/evacuation%201%201.png?raw=true)
 ![alt text](https://github.com/leobeuque/TIPE-MPSI/blob/main/evacuation%201%205.png?raw=true)
 ![alt text](https://github.com/leobeuque/TIPE-MPSI/blob/main/evacuation%201%207.png?raw=true)
 
+Pour ce modèle, on obtient cette fois-ci des résultats plus réalistes: En ajoutant un obstacle devant la sortie, on parvient à fluidifier légèrement l'évacuation de la salle.
 
 ![alt text](https://github.com/leobeuque/TIPE-MPSI/blob/main/comparaison%20courbes%20obstacles%2C%20CA%20MARCHE.png?raw=true)
