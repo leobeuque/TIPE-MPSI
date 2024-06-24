@@ -1,6 +1,6 @@
 ### Travail d'Initiative Personnelle Encadré (TIPE) portant sur la modélisation de l'évacuation d'une foule dans une salle.
 
-Ce Projet, réalisé en principalement en MPSI, fut mon premier projet de taille significative. Deux approches ont été étudiées pour modéliser la foule. Le premier modèle simple au fonctionnement proche de celui d'un automate cellulaire pouvait être visualisé sous la forme suivante:
+Ce Projet, réalisé principalement en MPSI, fut mon premier projet de taille significative. Deux approches ont été étudiées pour modéliser la foule. Le premier modèle simple, au fonctionnement proche de celui d'un automate cellulaire, pouvait être visualisé sous la forme suivante:
 
 ![alt text](https://github.com/leobeuque/TIPE-MPSI/blob/main/proba%20de%20tomber%20de%200.1%203.png?raw=true)
 
